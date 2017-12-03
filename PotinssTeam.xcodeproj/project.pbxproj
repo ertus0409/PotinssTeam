@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34929691FD4522A00B0B863 /* SetGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34929681FD4522A00B0B863 /* SetGoalVC.swift */; };
 		A3844C9F1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3844C9E1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework */; };
 		A3844CA51FCEE0610054A5E3 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3844CA41FCEE0610054A5E3 /* SignInVC.swift */; };
 		A3844CA91FCEED5F0054A5E3 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3844CA81FCEED5F0054A5E3 /* GoalCell.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2D65245A46E1A98969FB5E22 /* Pods-PotinssTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotinssTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PotinssTeam/Pods-PotinssTeam.debug.xcconfig"; sourceTree = "<group>"; };
 		8FACAE6C99AD772D504D55CA /* Pods-PotinssTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotinssTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-PotinssTeam/Pods-PotinssTeam.release.xcconfig"; sourceTree = "<group>"; };
+		A34929681FD4522A00B0B863 /* SetGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGoalVC.swift; sourceTree = "<group>"; };
 		A3844C9E1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/PotinssTeam-druuvzpbnmyobxaohcljxcrmzcgm/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"; sourceTree = "<group>"; };
 		A3844CA41FCEE0610054A5E3 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		A3844CA81FCEED5F0054A5E3 /* GoalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				A3844CA41FCEE0610054A5E3 /* SignInVC.swift */,
 				A3844CAA1FCEEDA40054A5E3 /* TeamGoalsVC.swift */,
+				A34929681FD4522A00B0B863 /* SetGoalVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				A3844CA91FCEED5F0054A5E3 /* GoalCell.swift in Sources */,
 				A3844CAF1FCEEF820054A5E3 /* DataService.swift in Sources */,
+				A34929691FD4522A00B0B863 /* SetGoalVC.swift in Sources */,
 				A3844CA51FCEE0610054A5E3 /* SignInVC.swift in Sources */,
 				A3914BC61FCED5C400978274 /* AppDelegate.swift in Sources */,
 				A3844CAD1FCEEE8B0054A5E3 /* Goal.swift in Sources */,
