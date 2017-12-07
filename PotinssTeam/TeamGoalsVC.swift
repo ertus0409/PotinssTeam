@@ -20,6 +20,7 @@ class TeamGoalsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     
     //VARIABLES:
     var goals = [Goal!]()
+    var theGoal: Goal!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +42,7 @@ class TeamGoalsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     
     //TABLEVIEW FUNCTIONS:
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let goal = goals[indexPath.row]
+        let goal = goals[((goals.count-1) - indexPath.row)]
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "GoalCell") as? GoalCell {
             cell.configureCell(goal: goal!)
@@ -58,10 +59,16 @@ class TeamGoalsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        theGoal = goals[((goals.count-1) - indexPath.row)]
+        performSegue(withIdentifier: "theGoal", sender: self)
+    }
     
     //OBSERVER:
     func observe() {
-        DataService.ds.REF_GOALS.observe(.value, with: { (snapshot) in
+        let ref = DataService.ds.REF_GOALS.queryOrdered(byChild: "timestamp")
+
+        ref.observe(.value, with: { (snapshot) in
             self.goals = []
             if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
                 for snap in snapshot {
@@ -73,9 +80,20 @@ class TeamGoalsVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
                     }
                 }
             }
+           
+            
             self.tableView.reloadData()
         })
 
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "theGoal" {
+            let theGoalVC = segue.destination as? ViewGoalVC
+            theGoalVC?.goal = theGoal
+            
+        }
     }
     
     

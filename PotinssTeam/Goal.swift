@@ -16,6 +16,7 @@ class Goal {
     private var _goalStatus: String!
     private var _goalVerifiers: String!
     private var _goalKey: String!
+    private var _timeStamp: String!
     private var _goalRef: DatabaseReference!
     
     var goalName: String {
@@ -32,6 +33,9 @@ class Goal {
     }
     var dueDate: String {
         return _dueDate
+    }
+    var timestamp: String {
+        return _timeStamp
     }
     
     init(name: String, status: String, verifiers: String) {
@@ -54,6 +58,9 @@ class Goal {
         }
         if let dueDate = goalData["dueDate"] as? String {
             self._dueDate = dueDate
+        }
+        if let timeStamp = goalData["timestamp"] as? String {
+            self._timeStamp = timeStamp
         }
         
         _goalRef = DataService.ds.REF_GOALS.child(_goalKey)

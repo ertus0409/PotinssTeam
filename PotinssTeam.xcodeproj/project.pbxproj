@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30F1EF51FD55A48002BE315 /* ViewGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30F1EF41FD55A48002BE315 /* ViewGoalVC.swift */; };
+		A34440E41FD7D2AA0062E85E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34440E31FD7D2AA0062E85E /* Post.swift */; };
+		A34440E61FD90CBD0062E85E /* TextOnlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34440E51FD90CBD0062E85E /* TextOnlyCell.swift */; };
 		A34929691FD4522A00B0B863 /* SetGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34929681FD4522A00B0B863 /* SetGoalVC.swift */; };
 		A3844C9F1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3844C9E1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework */; };
 		A3844CA51FCEE0610054A5E3 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3844CA41FCEE0610054A5E3 /* SignInVC.swift */; };
@@ -20,12 +23,17 @@
 		A3914BCD1FCED5C400978274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3914BCC1FCED5C400978274 /* Assets.xcassets */; };
 		A3914BD01FCED5C400978274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3914BCE1FCED5C400978274 /* LaunchScreen.storyboard */; };
 		A3914BD81FCED64100978274 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3914BD71FCED64100978274 /* GoogleService-Info.plist */; };
+		A3ACDDCD1FD71B97003E6873 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACDDCC1FD71B97003E6873 /* FancyField.swift */; };
+		A3ACDDCF1FD71BA8003E6873 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACDDCE1FD71BA8003E6873 /* FancyButton.swift */; };
 		BE26371C768FA452DBEB0FCD /* Pods_PotinssTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C877819C4B3CA060202AA1 /* Pods_PotinssTeam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D65245A46E1A98969FB5E22 /* Pods-PotinssTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotinssTeam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PotinssTeam/Pods-PotinssTeam.debug.xcconfig"; sourceTree = "<group>"; };
 		8FACAE6C99AD772D504D55CA /* Pods-PotinssTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotinssTeam.release.xcconfig"; path = "Pods/Target Support Files/Pods-PotinssTeam/Pods-PotinssTeam.release.xcconfig"; sourceTree = "<group>"; };
+		A30F1EF41FD55A48002BE315 /* ViewGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGoalVC.swift; sourceTree = "<group>"; };
+		A34440E31FD7D2AA0062E85E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A34440E51FD90CBD0062E85E /* TextOnlyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextOnlyCell.swift; sourceTree = "<group>"; };
 		A34929681FD4522A00B0B863 /* SetGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGoalVC.swift; sourceTree = "<group>"; };
 		A3844C9E1FCEDAAC0054A5E3 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = "../../../../Library/Developer/Xcode/DerivedData/PotinssTeam-druuvzpbnmyobxaohcljxcrmzcgm/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"; sourceTree = "<group>"; };
 		A3844CA41FCEE0610054A5E3 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -41,6 +49,8 @@
 		A3914BCF1FCED5C400978274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3914BD11FCED5C400978274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3914BD71FCED64100978274 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3ACDDCC1FD71B97003E6873 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		A3ACDDCE1FD71BA8003E6873 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		E1C877819C4B3CA060202AA1 /* Pods_PotinssTeam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotinssTeam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A3844CAC1FCEEE8B0054A5E3 /* Goal.swift */,
+				A34440E31FD7D2AA0062E85E /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -78,6 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				A3844CA81FCEED5F0054A5E3 /* GoalCell.swift */,
+				A3ACDDCC1FD71B97003E6873 /* FancyField.swift */,
+				A3ACDDCE1FD71BA8003E6873 /* FancyButton.swift */,
+				A34440E51FD90CBD0062E85E /* TextOnlyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -88,6 +102,7 @@
 				A3844CA41FCEE0610054A5E3 /* SignInVC.swift */,
 				A3844CAA1FCEEDA40054A5E3 /* TeamGoalsVC.swift */,
 				A34929681FD4522A00B0B863 /* SetGoalVC.swift */,
+				A30F1EF41FD55A48002BE315 /* ViewGoalVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -285,10 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3844CA91FCEED5F0054A5E3 /* GoalCell.swift in Sources */,
+				A34440E61FD90CBD0062E85E /* TextOnlyCell.swift in Sources */,
 				A3844CAF1FCEEF820054A5E3 /* DataService.swift in Sources */,
+				A3ACDDCD1FD71B97003E6873 /* FancyField.swift in Sources */,
+				A34440E41FD7D2AA0062E85E /* Post.swift in Sources */,
 				A34929691FD4522A00B0B863 /* SetGoalVC.swift in Sources */,
+				A3ACDDCF1FD71BA8003E6873 /* FancyButton.swift in Sources */,
 				A3844CA51FCEE0610054A5E3 /* SignInVC.swift in Sources */,
 				A3914BC61FCED5C400978274 /* AppDelegate.swift in Sources */,
+				A30F1EF51FD55A48002BE315 /* ViewGoalVC.swift in Sources */,
 				A3844CAD1FCEEE8B0054A5E3 /* Goal.swift in Sources */,
 				A3844CAB1FCEEDA40054A5E3 /* TeamGoalsVC.swift in Sources */,
 				A3844CB11FCEF0170054A5E3 /* Constants.swift in Sources */,
@@ -419,10 +439,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9U3W639GL8;
 				INFOPLIST_FILE = PotinssTeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ErtugrulUcar.PotinssTeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,10 +455,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9U3W639GL8;
 				INFOPLIST_FILE = PotinssTeam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ErtugrulUcar.PotinssTeam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

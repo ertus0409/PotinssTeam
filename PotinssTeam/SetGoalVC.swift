@@ -6,6 +6,8 @@
 //  Copyright © 2017 Ertugrul Ucar. All rights reserved.
 //
 
+import Firebase
+import FirebaseDatabase
 import UIKit
 
 class SetGoalVC: UIViewController, UITextFieldDelegate {
@@ -31,10 +33,10 @@ class SetGoalVC: UIViewController, UITextFieldDelegate {
     @IBAction func setGoalTapped(_ sender: Any) {
         
         let goal: Dictionary<String, AnyObject> = [
-        
             "description": goalNameField.text as AnyObject,
             "status": "incomplete" as AnyObject,
-            "dueDate": dueDateField.text as AnyObject
+            "dueDate": dueDateField.text as AnyObject,
+            "timestamp": ServerValue.timestamp() as AnyObject
         ]
 
         

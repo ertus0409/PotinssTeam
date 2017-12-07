@@ -21,6 +21,7 @@ class DataService {
     private var _REF_BASE = DB_BASE
     private var _REF_GOALS = DB_BASE.child("goals")
     private var _REF_USERS = DB_BASE.child("users")
+    private var _REF_POSTS = DB_BASE.child("posts")
     
     var REF_BASE: DatabaseReference {
         return _REF_BASE
@@ -32,6 +33,9 @@ class DataService {
     
     var REF_USERS: DatabaseReference {
         return _REF_USERS
+    }
+    var REF_POSTS: DatabaseReference {
+        return _REF_POSTS
     }
     
     var REF_USER_CURRENT: DatabaseReference {

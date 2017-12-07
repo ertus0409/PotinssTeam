@@ -7,5 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
 let KEY_UID = "uid"
+
+let SHADOW_GREY: CGFloat = 120.0/255.0
+
